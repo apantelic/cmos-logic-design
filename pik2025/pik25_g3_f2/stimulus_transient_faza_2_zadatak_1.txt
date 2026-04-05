@@ -1,0 +1,7 @@
+simulator lang=spectre
+Vdd (vdd! 0) vsource dc=1.8
+Gnd (gnd! 0) vsource dc=0
+v1 (A1 0) vsource type=pulse val0=0 val1=1.8 delay = 0 rise=5p fall=5p width=20n period=30n
+v2 (A0 0) vsource type=pulse val0=0 val1=1.8 delay = 5n rise=5p fall=5p width=10n period=20n
+c0 (0 Y) capacitor c=5f 
+

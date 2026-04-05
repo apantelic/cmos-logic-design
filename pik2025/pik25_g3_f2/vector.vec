@@ -1,0 +1,22 @@
+signal S A B
+io i i i
+period 20n
+fall 5p 
+rise 5p
+vih 1.8
+vil 0.0
+radix 1 1 1
+0 0 0
+0 1 0
+0 0 0
+1 0 0
+1 0 1
+1 0 0
+0 0 1
+1 0 1
+0 0 1
+0 1 0
+1 1 0
+0 1 0
+
+

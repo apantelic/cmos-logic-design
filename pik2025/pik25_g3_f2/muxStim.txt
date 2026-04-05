@@ -1,0 +1,5 @@
+simulator lang=spectre
+Vdd (vdd! 0) vsource dc=1.8
+Gnd (gnd! 0) vsource dc=0
+c0 (0 Y) capacitor c=5f
+
